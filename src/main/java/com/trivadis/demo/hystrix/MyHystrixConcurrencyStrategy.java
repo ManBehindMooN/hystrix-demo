@@ -15,6 +15,8 @@ public class MyHystrixConcurrencyStrategy extends HttpServlet {
 
 }
 
+//https://github.com/WASdev/sample.netflixoss.wlp
+
 
 //public class TestHystrixConcurrencyStrategyDefault extends HystrixConcurrencyStrategy {
 //
@@ -36,7 +38,7 @@ public class MyHystrixConcurrencyStrategy extends HttpServlet {
 //
 //		@Override
 //		public Thread newThread(Runnable r) {
-//			Validate.notNull(r, "Das Runnable Argument zu dieser Methode darf nicht null sein!");
+//			Validate.notNull(r, "Runnable is not supposed to be null!");
 //			return new WasThreadManagerThread(r);
 //		}
 //	}
